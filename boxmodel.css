@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.box-one{
+    background-color: cadetblue;
+   
+    border: 30px solid yellowgreen;
+    padding: 10px;
+    margin: 60px;
+    height: 150px;
+    width: 150px;
+}
+
+.box-two{
+    background-color:thistle;
+    border: 30px solid yellow;
+    padding: 10px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+}
+
+.wrapper{
+    display: grid;
+    /*
+    grid-template-columns: 40% 30% 30%;*/
+    grid-template-columns: repeat(3,1fr 2fr);
+}
